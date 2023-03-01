@@ -1,0 +1,57 @@
+.sale {
+    background-color: $base-color;
+    overflow: hidden;
+    height: 604px;
+    .container {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        justify-content: space-between;
+    }
+    &__content {
+        width: 308px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        color: #fff;
+        line-height: 1;
+    }
+    &__text {
+        margin-top: 50px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff;
+    }
+    &__button {
+        margin-top: 50px;
+        @include button;
+        border: #fff solid 2px;
+        background: none;
+        width: 170px;
+        line-height: 1;
+        color:#fff;
+        height: 40px;
+    }
+    &__picture {
+        width: calc(1110px - 320px);
+    }
+    &__back-circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 859px;
+        height: 859px;
+        border-radius: 100%;
+        background: rgba(255, 255, 255, 0.3);
+    }
+    &__front-circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 677px;
+        height: 677px;
+        border-radius: 100%;
+        background: rgba(255, 255, 255, 0.4);
+    }
+}

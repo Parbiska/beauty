@@ -1,0 +1,226 @@
+@media (max-width: 1199px) {
+    .container {
+        width: 800px;
+    }
+    
+    .sale {
+        &__picture {
+            width: auto;
+        }
+        &__back-circle {
+            width: 759px;
+            height: 759px;
+        }
+        &__front-circle {
+            width: 577px;
+            height: 577px;
+        }
+        &__text {
+            font-size: 16px;
+        }
+    }
+
+    .offers {
+        &__products {
+            &__element {
+                margin-top: 10px;
+            }
+        }
+        &__referral {
+            display: block;
+            padding-bottom: 40px;
+            &__element {
+                margin: 40px auto 0 auto;
+            }
+        }
+    }
+
+    .connection {
+        &__social {
+            margin-right: 0;
+        }
+        &__address {
+            margin-right: 20px;
+            font-size: 13px;
+        }
+        &__call {
+            &__number {
+                margin-right: 10px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 899px) {
+    .head {
+        padding: 0 20px;
+    }
+    .container {
+        width: auto;
+    }
+
+    .sale {
+        .container {
+            padding: 0 20px;
+            justify-content: center;
+        }
+        &__picture {
+            display: none;
+        }
+        &__content {
+            width: 700px;
+        }
+        &__title {
+            font-size: 60px;
+        }
+        &__text {
+            font-size: 20px;
+        }
+        &__button {
+            width: 240px;
+            height: 55px;
+            border-radius: 40px;
+            font-size: 26px;
+        }
+    }
+
+    .offers {
+        &__products {
+            justify-content: space-evenly;
+            &__element {
+                margin: 10px 5px 0 5px;
+            }
+        }
+        &__referral {
+            display: block;
+            padding-bottom: 40px;
+            &__element {
+                margin: 40px auto 0 auto;
+            }
+        }
+    }
+    .connection {
+        flex-direction: column;
+        &__icon {
+            width: 60px;
+            height: 60px;
+        }
+        &__social {
+            margin-top: 20px;
+        }
+        &__address {
+            margin-top: 20px;
+            margin-right: 0;
+            font-size: 20px;
+        }
+        &__call {
+            margin: 20px 0;
+            flex-direction: column;
+            &__number {
+                margin-right: 20px;
+                font-size: 24px;
+            }
+            &__button {
+                width: 200px;
+                height: 45px;
+                margin-top: 5px;
+                font-size: 18px;
+            }
+        }
+    }
+    .copyright {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__policy {
+            margin:5px 0 10px 0;
+        }
+        &__text {
+            padding: 0 10px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .head {
+        &__top {
+            height: auto;
+            .container {
+                flex-direction: column;
+            }
+            &__element {
+                margin: 10px 0 18px 0;
+            }
+            &__number {
+                font-size: 20px;
+            }
+        }
+        &__nav {
+            &__list {
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+            }
+            &__element {
+                margin: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .head {
+        &__top {
+            &__number {
+                margin-right: 0;
+            }
+            &__button {
+                margin-top: 10px;
+            }
+            &__call {
+                flex-direction: column;
+            }
+        }
+    }
+    .offers {
+        &__title {
+            font-size: 30px;
+            text-align: center;
+        }
+        &__header {
+            justify-content: center;
+            &__img {
+                display: none;
+            }
+        }
+        &__referral {
+            &__element {
+                padding: 35px 0 20px 30px;
+                height: auto;
+                width: auto;
+            }
+            &__distribution {
+                img {
+                    display: none;
+                }
+            }
+            &__title {
+                font-size: 24px;
+            }
+            &__text {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .connection {
+        &__link {
+            margin: 0 8px;
+        }
+        &__address {
+            text-align: center;
+        }
+    }
+}
